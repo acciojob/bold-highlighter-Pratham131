@@ -2,7 +2,8 @@ function highlight() {
     //Write your code here
 	let boldText = document.querySelectorAll("strong")
 	boldText.forEach((element) => {
-		element.style.color = "green"
+		element.style.color = "rgb(0, 128, 0)"
+			// "green"
 	})
 
 }
@@ -12,7 +13,8 @@ function return_normal() {
     //Write your code here
 	let boldText = document.querySelectorAll("strong")
 	boldText.forEach((element) => {
-		element.style.color = "black"
+		element.style.color = "rgb(0, 0, 0)"
+			// "black"
 	})
     
 }
