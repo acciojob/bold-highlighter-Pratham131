@@ -20,5 +20,17 @@ function return_normal() {
 }
 let link = document.querySelector("a")
 // let link = document.getElementByTagName("a")[0]
-link.addEventListner('onMouseOver', highlight)
-link.addEventListner('onMouseOut', return_normal)
+link.addEventListener('onMouseOver', highlight)
+link.addEventListener('onMouseOut', return_normal)
+
+
+
+
+
+
+
+
+
+
+
+
